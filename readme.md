@@ -43,9 +43,9 @@ To build this API I used folowing technology and packages:
 
 ## Demo
 
-The API is live at [TBD.io](https://TBD.io)
+The API is live at [todo-dojo-api.herokuapp.com](https://todo-dojo-api.herokuapp.com/)
 
-API documentation with examples [here](https://TBD)
+API documentation with examples [here](https://documenter.getpostman.com/view/10852837/Uzs13mfV)
 
 - Version: 1.0.0
 - License: MIT
