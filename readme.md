@@ -41,6 +41,14 @@ To build this API I used folowing technology and packages:
 - [npm mongoose](https://www.npmjs.com/package/mongoose)
 - [npm colors](https://www.npmjs.com/package/colors)
 
+### API Security
+- Prevent NoSQL injection and sanitize data [Express Mongoose Sanitize](https://www.npmjs.com/package/express-mongo-sanitize)
+- Security Headers with [Helmet](https://www.npmjs.com/package/helmet)
+- Prevent Cross Site Scripting attacs with [XSS-Clean](https://www.npmjs.com/package/xss-clean)
+- Rate limiting to max 100 requests from one IP address in 10 min with [Express Rate Limit](https://www.npmjs.com/package/express-rate-limit)
+- Protect against HTTP Parameter Pollution attacks with [HPP](https://www.npmjs.com/package/hpp)
+- Enable CORS to make API public with [CORS](https://www.npmjs.com/package/cors)
+
 ## Demo
 
 The API is live at [todo-dojo-api.herokuapp.com](https://todo-dojo-api.herokuapp.com/)
